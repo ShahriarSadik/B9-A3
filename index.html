@@ -2,124 +2,526 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment-3</title>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment-3</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-    <header>
-        <nav class="lg:mx-16">
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                    <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
-                        </div>
-                        <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li class="text-red-600"><a>Home</a></li>
-                            <li><a>About</a></li>
-                            <li><a>Pages</a></li>
-                            <li><a>Blog</a></li>
-                            <li><a>Contact</a></li>
-                        </ul>
-                    </div>
-                    <a class="btn btn-ghost lg:text-3xl">Hockey<span class="text-red-600">’</span>s</a>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
-                        <li class="text-red-600"><a>Home</a></li>
-                        <li><a>About</a></li>
-                        <li><a>Pages</a></li>
-                        <li><a>Blog</a></li>
-                        <li><a>Contact</a></li>
-                    </ul>
-                </div>
-                <div class="navbar-end">
-                    <img src="Frame (2).png" alt="">
-                    <a class="btn  bg-red-500 text-white lg:px-6">Get Ticket</a>
-                </div>
+  <header>
+    <nav class="lg:mx-16">
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
             </div>
-        </nav>
-        <!--banner section start here-->
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li class="text-red-600"><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost lg:text-3xl gap-0">Hockey<span class="text-red-600">’</span>s</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li class="text-red-600"><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+            <img src="Frame (2).png" alt="">
+          <a class="btn  bg-red-500 text-white lg:px-6">Get Ticket</a>
+        </div>
+      </div>
+    </nav>
+    <!--banner section start here-->
 
-        <section class=" lg:mx-16 mx-3">
-            <div class="carousel w-full h-5/6">
-                <div id="slide1" class="carousel-item relative w-full">
-                    <img src="B9A3-Hockeys-main/Images/1.png" class="w-full  h-5/6" />
+    <section class=" lg:mx-16 mx-3">
+      <div class="carousel w-full h-5/6">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="B9A3-Hockeys-main/Images/1.png" class="w-full  h-5/6" />
 
 
-                    <div class="absolute flex bottom-10 left-40 transform lg:-translate-y-1/2 lg:bottom-24 lg:left-6 ">
-                        <a href="#slide4" class="btn btn-circle bg-gray-600 border-none">❮</a>
-                        <a href="#slide2" class="btn btn-circle bg-gray-600 border-none">❯</a>
-                    </div>
-                </div>
-                <div id="slide2" class="carousel-item relative w-full">
-                    <img src="B9A3-Hockeys-main/Images/1.png" class="w-full h-5/6" />
-                    <div
-                        class="absolute flex bottom-10 left-40 lg:transform lg:-translate-y-1/2 lg:bottom-24 lg:left-6">
-                        <a href="#slide1" class="btn btn-circle  bg-gray-600 border-none">❮</a>
-                        <a href="#slide3" class="btn btn-circle  bg-gray-600 border-none">❯</a>
-                    </div>
-                </div>
+          <div class="absolute flex bottom-10 left-40 transform lg:-translate-y-1/2 lg:bottom-24 lg:left-6 ">
+            <a href="#slide4" class="btn btn-circle bg-gray-600 border-none">❮</a>
+            <a href="#slide2" class="btn btn-circle bg-gray-600 border-none">❯</a>
+          </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="B9A3-Hockeys-main/Images/1.png" class="w-full h-5/6" />
+          <div class="absolute flex bottom-10 left-40 lg:transform lg:-translate-y-1/2 lg:bottom-24 lg:left-6">
+            <a href="#slide1" class="btn btn-circle  bg-gray-600 border-none">❮</a>
+            <a href="#slide3" class="btn btn-circle  bg-gray-600 border-none">❯</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="absolute mx-2 lg:w-1/3 lg:h-44 bg-black  p-3 lg:p-7 text-white rounded-xl lg:bottom-52 lg:right-28 ">
+        <h2 class="text-2xl pb-3">Meet all the heroes from the field</h2>
+        <P class="text-base">Meet all our favorite hockey player in the field. We have a old club so our player
+          are national heros. They play for this club. </P>
+      </div>
+    </section>
+    <!--Banner section end here  -->
+  </header>
+  <main>
+    <section>
+      <div class="text-center  lg:mt-24 mt-56 lg:w-1/2 lg:ml-96  sm:w-96">
+        <h2 class="text-xl lg:text-4xl font-extrabold">Professional Hockey Club</h2>
+        <p class="font-normal mt-5 ">Our hockey club is our traditional one,<br> hockey is one of beautiful game
+          This<br> club is the oldest club This club is our pride.</p>
+
+      </div>
+      <div class="flex flex-col lg:justify-evenly lg:flex-row lg:mt-20 w-4/5 mx-auto">
+        <div class="text-center">
+          <div class="radial-progress  text-red-500  lg:mt-0 mt-10" style="--value:87;" role="progressbar">87%
+          </div>
+          <h2 class="text-lg lg:text-2xl font-bold mt-3">Prayer Facility</h2>
+          <p>Our player having world-class<br> facility They are also good</p>
+        </div>
+        <div class="text-center">
+          <div class="radial-progress text-success lg:mt-0 mt-10" style="--value:95;" role="progressbar">95%
+          </div>
+          <h2 class="text-lg lg:text-2xl font-bold mt-3">Experienced Coach</h2>
+          <p>We have a full of experienced<br> coachin our hockey club.
+          <p>
+        </div>
+        <div class="text-center">
+          <div class="radial-progress text-warning lg:mt-0 mt-10" style="--value:90;" role="progressbar">90%
+          </div>
+          <h2 class="text-lg lg:text-2xl font-bold mt-3">Senior Player</h2>
+          <p>Senior player are too much experienced<br> their in their field, good person as well</p>
+        </div>
+        <div class="text-center">
+          <div class="radial-progress text-info lg:mt-0 mt-10" style="--value:80;" role="progressbar">80%
+          </div>
+          <h2 class="text-lg lg:text-2xl font-bold mt-3">Playing Ground</h2>
+          <p>We have a beautiful playing <br>ground, we are lucky</p>
+        </div>
+      </div>
+    </section>
+    <!--proffesional hockey section done -->
+    <section class="mx-4 lg:mx-32 ">
+      <div class="text-center mt-32">
+        <h2 class="text-3xl font-extrabold">Program Sections</h2>
+        <p class="mt-5">We have a yearly program and tournament and monthly and also weeekly where player are too much
+          busy to show their ability and perform.</p>
+      </div>
+
+      <div class="flex lg:justify-between flex-col lg:flex-row mt-20 gap-8">
+
+        <div class="card w-full lg:w-1/2 bg-base-100 shadow-xl image-full">
+          <figure><img src="B9A3-Hockeys-main/Images/2.png" alt="Shoes" /></figure>
+          <div class="card-body m-1 lg:m-4 mt-14">
+            <h2 class="card-title font-bold">Junior Program</h2>
+            <p>Every year, every month, every week we are represent our club. It is a competitive match where if student
+              perform well they will selected for the senior team.
+            </p>
+            <div class="card-actions">
+              <button class="bg-red-500  px-6 py-2 rounded-md ">Register Now!</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card w-full lg:w-1/2 bg-base-100 shadow-xl image-full">
+          <figure><img src="B9A3-Hockeys-main/Images/3.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title m-1 lg:m-4 mt-14">Professional Program</h2>
+            <P>Every year, every month, every week we are represent our club. It is a competitive match where if student
+              perform well they will selected for the senior team.
+            </P>
+            <div class="card-actions">
+              <button class="bg-red-500  px-6 py-2 rounded-md ">Register Now!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class=" mt-10">
+        <div class="card w-full lg:w-100vh bg-cover lg:h-2/3 bg-base-100 shadow-lg image-full">
+          <figure><img src="B9A3-Hockeys-main/Images/4.png" alt="Shoes" class="opacity-1" /></figure>
+          <div class="card-body">
+            <h2 class="card-title m-2 lg:mt-52">Professional Program</h2>
+            <p class="w-3/4 lg:w-2/4">Every year, every month, every week we are represent our club. It is a competitive
+              match where if student perform well they will selected for the senior team.
+            </p>
+            <div class="card-actions">
+              <button class="bg-red-500  px-6 py-2 rounded-md">Register Now!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!--New section start here-->
+    <section class="mx-4 lg:mx-32">
+      <div class="text-center mt-28">
+        <h2 class="text-3xl font-extrabold">Our New Products</h2>
+        <p>Our new product collection arrive in the marketplace. This product are all premium and best in the whole
+          market.</p>
+      </div>
+
+      <div class="flex justify-between flex-col lg:flex-row mt-10 gap-7">
+        <div class="card flex-col lg:flex-row bg-base-100 shadow-xl ">
+          <figure><img src="B9A3-Hockeys-main/Images/5.png" alt="Movie" /></figure>
+          <div>
+            <div class="card-body">
+              <div class="rating gap-3">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                5.0
+                <img src="eye-icon.png" alt="">20
+                <img src="love-icon.png" alt="">200
+              </div>
+              <h2 class="text-2xl font-bold">Varsity Jacket</h2>
+              <p>If you want to see more details click on the image.</p>
+              <p class="text-red-500 font-bold text-xl">Price - $22.00</p>
+              <div class="flex gap-5">
+                <img src="cart.png" alt="">
+                <p> Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+
+          <div class="card flex-col lg:flex-row bg-base-100 shadow-xl mt-8 lg:mt-0">
+            <figure><img src="B9A3-Hockeys-main/Images/6.png" alt="Movie" /></figure>
+            <div class="card-body">
+              <div class="rating gap-3">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                5.0
+                <img src="eye-icon.png" alt="">20
+                <img src="love-icon.png" alt="">200
+              </div>
+              <h2 class="text-2xl font-bold">Our Flag</h2>
+              <p>If you want to see more details click on the image.</p>
+              <p class="text-red-500 font-bold text-xl">Price - $22.00</p>
+              <div class="flex gap-5">
+                <img src="cart.png" alt="">
+                <p> Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-----2nd line-->
+      <div class="flex justify-between mt-6 flex-col lg:flex-row gap-7">
+        <div>
+          <div class="card flex-col lg:flex-row bg-base-100 shadow-xl">
+            <figure><img src="B9A3-Hockeys-main/Images/7.png" alt="Movie" /></figure>
+            <div class="card-body">
+              <div class="rating gap-3">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                5.0
+                <img src="eye-icon.png" alt="">20
+                <img src="love-icon.png" alt="">200
+              </div>
+
+              <h2 class="text-2xl font-bold">New Cap</h2>
+              <p>If you want to see more details click on the image.</p>
+              <p class="text-red-500 font-bold text-xl">Price - $22.00</p>
+              <div class="flex gap-5">
+                <img src="cart.png" alt="">
+                <p> Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="card flex-col lg:flex-row bg-base-100 shadow-xl mt-8 lg:mt-0">
+            <figure><img src="B9A3-Hockeys-main/Images/8.png" alt="Movie" /></figure>
+            <div class="card-body">
+              <div class="rating gap-3">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                5.0
+                <img src="eye-icon.png" alt="">20
+                <img src="love-icon.png" alt="">200
+              </div>
+
+              <h2 class="text-2xl font-bold">New Jursey</h2>
+              <p>If you want to see more details click on the image.</p>
+              <p class="text-red-500 font-bold text-xl">Price - $22.00</p>
+              <div class="flex gap-5">
+                <img src="cart.png" alt="">
+                <p> Delivery Fee : Free</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---3rd line-->
+      <div class="flex justify-between mt-6 flex-col lg:flex-row gap-7">
+        <div>
+          <div class="card flex-col lg:flex-row bg-base-100 shadow-xl">
+            <figure><img src="B9A3-Hockeys-main/Images/9.png" alt="Movie" /></figure>
+            <div class="card-body">
+              <div class="rating gap-3">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                5.0
+                <img src="eye-icon.png" alt="">20
+                <img src="love-icon.png" alt="">200
+              </div>
+
+              <h2 class="text-2xl font-bold">Original Helmet</h2>
+              <p>If you want to see more details click on the image.</p>
+              <p class="text-red-500 font-bold text-xl">Price - $22.00</p>
+              <div class="flex gap-5">
+                <img src="cart.png" alt="">
+                <p> Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="card flex-col lg:flex-row bg-base-100 shadow-xl  mt-8 lg:mt-0">
+            <figure><img src="B9A3-Hockeys-main/Images/10.png" alt="Movie" /></figure>
+            <div class="card-body">
+              <div class="rating gap-3">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                5.0
+                <img src="eye-icon.png" alt="">20
+                <img src="love-icon.png" alt="">200
+              </div>
+
+              <h2 class="text-2xl font-bold">Football</h2>
+              <p>If you want to see more details click on the image.</p>
+              <p class="text-red-500 font-bold text-xl">Price - $22.00</p>
+              <div class="flex gap-5">
+                <img src="cart.png" alt="">
+                <p> Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--new section-->
+    <section class="mx-3 lg:mx-32">
+      <div class="text-center">
+        <h2 class="mt-24 font-extrabold text-3xl">Clients Question</h2>
+        <p class="mt-10 mb-12">Our clients ask us many different level question about our club and facilities in our
+          club. Oppertunity of every player in this club etc</p>
+      </div>
+      <div>
+        <div class="card lg:card-side bg-base-100 shadow-xl">
+          <figure><img src="B9A3-Hockeys-main/Images/11.png" alt="Album" /></figure>
+          <div class="card-body">
+
+
+
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" checked="checked" />
+              <div class="collapse-title text-xl font-medium">
+                <h2 class="card-title">Our Equipment</h2>
+              </div>
+              <div class="collapse-content">
+                <p>We have world class facility. Our hockey club is one of the oldest, we have every type of equipment
+                  in the club</p>
+              </div>
             </div>
 
-            <div
-                class="absolute mx-2 lg:w-1/3 lg:h-44 bg-black  p-3 lg:p-7 text-white rounded-xl lg:bottom-52 lg:right-28 ">
-                <h2 class="text-2xl pb-3">Meet all the heroes from the field</h2>
-                <P class="text-base">Meet all our favorite hockey player in the field. We have a old club so our player are national heros. They play for this club. </P>
+
+
+
+
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">
+                Hockey Training
+              </div>
+              <div class="collapse-content">
+                <p>hello</p>
+              </div>
             </div>
-        </section>
-        <!--Banner section end here  -->
-    </header>
-    <main>
-        <section>
-            <div class="text-center  lg:mt-24 mt-56 lg:w-1/2 lg:ml-96  sm:w-96">
-                <h2 class="text-xl lg:text-4xl font-extrabold">Professional Hockey Club</h2>
-                <p class="font-normal mt-5 ">Our hockey club is our traditional one,<br> hockey is one of beautiful game This<br> club is the oldest club This club is our pride.</p>
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">
+                Private Lessons
+              </div>
+              <div class="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+
+
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">
+                Ski Touring
+              </div>
+              <div class="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">
+                Booking
+              </div>
+              <div class="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">
+                Pricings
+              </div>
+              <div class="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+        </div>
+    </section>
+
+
+    <!---New section start here-->
+
+
+    <section class="mt-24 mx-1 lg:mx-32">
+      <div class="text-center">
+        <h2 class="text-3xl font-extrabold">Get In Touch</h2>
+        <p class="mt-8">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna
+          in sit
+          nullam proin. </p>
+      </div>
+      </div>
+
+
+      <div class="flex justify-between flex-col lg:flex-row">
+
+        <div class="mt-32 w-fit lg:w-2/5 border  p-6 lg:p-16  shadow-md">
+
+          <div class="w-80 h-50vh bg-green-50 rounded">
+            <img src="B9A3-Hockeys-main/Images/Group 1171275317.png" alt="" class="p-6">
+            <div class="card text-bg-light mb-3" style="max-width: 14rem;">
+              <div class="card-body">
+                <p>Phone Number : </p>
+                <p class="font-bold">(+62) 123-321-543</p>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="w-80 h-50vh bg-yellow-50  mt-7 rounded">
+            <img src="B9A3-Hockeys-main/Images/Group 1171275318.png" alt="" class="p-6">
+            <div class="card text-bg-light mb-3" style="max-width: 14rem;">
+              <div class="card-body">
+                <p>Email :</p>
+                <p class="font-bold">hockeys@support.com</p>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="w-80 h-50vh bg-blue-50 mt-7 rounded">
+            <img src="B9A3-Hockeys-main/Images/Group 1171275321.png" alt="" class="p-6">
+            <div class="card text-bg-light mb-3" style="max-width: 20rem;">
+              <div class="card-body">
+                <p>Location : </p>
+                <p class="font-bold">152/1 Mohakhali Wireless Gate</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--same section another part-->
+        <div class="w-full lg:w-2/4 text-center justify-center lg:text-end">
+          <div class="flex flex-col lg:flex-row mt-32 gap-8">
+            <label class="form-control w-full max-w-xs">
+              <div class="label">
+                <span class="label-text text-xl font-bold"> your name?</span>
+              </div>
+              <input type="text" placeholder="Enter your full name" class="input input-bordered w-full max-w-xs" />
+            </label>
+
+
+            <label class="form-control w-full max-w-xs">
+              <div class="label">
+                <span class="label-text text-xl font-bold">Your Email</span>
+              </div>
+              <input type="text" placeholder="Enter your email" class="input input-bordered w-full max-w-xs" />
+            </label>
+          </div>
+
+
+
+
+
+          <div class="flex flex-col lg:flex-row mt-14 gap-0 lg:gap-8">
+            <label class="form-control w-full max-w-xs">
+              <div class="label">
+                <span class="label-text text-xl font-bold">Subject</span>
+              </div>
+              <input type="text" placeholder="Enter your subject" class="input input-bordered w-full max-w-xs" />
+            </label>
+            <label class="form-control w-full max-w-xs">
+              <div class="label">
+                <span class="label-text text-xl font-bold">Phone Number</span>
+
+              </div>
+              <input type="text" placeholder="Enter your number" class="input input-bordered w-full max-w-xs" />
+            </label>
+          </div>
+          <div class="mt-20">
+            <div class="label">
+              <span class="label-text text-xl font-bold">Message</span>
 
             </div>
-            <div class="flex flex-col lg:justify-evenly lg:flex-row lg:mt-20 w-4/5 mx-auto">
-                <div class="text-center">
-                    <div class="radial-progress  text-red-500  lg:mt-0 mt-10" style="--value:87;" role="progressbar">87%</div>
-                    <h2 class="text-lg lg:text-2xl font-bold mt-3">Prayer Facility</h2>
-                    <p>Our player having world-class<br> facility They are also good</p>
-                </div>
-                <div class="text-center">
-                    <div class="radial-progress text-success lg:mt-0 mt-10" style="--value:95;" role="progressbar">95%</div>
-                    <h2  class="text-lg lg:text-2xl font-bold mt-3">Experienced Coach</h2>
-                    <p>We have a full of experienced<br> coachin our hockey club.<p>
-                </div>
-                <div class="text-center">
-                    <div class="radial-progress text-warning lg:mt-0 mt-10" style="--value:90;" role="progressbar">90%</div>
-                    <h2 class="text-lg lg:text-2xl font-bold mt-3">Senior Player</h2>
-                    <p>Senior player are too much experienced<br> their in their field, good person as well</p>
-                </div>
-                <div class="text-center">
-                    <div class="radial-progress text-info lg:mt-0 mt-10" style="--value:80;" role="progressbar">80%</div>
-                    <h2 class="text-lg lg:text-2xl font-bold mt-3">Playing Ground</h2>
-                    <p>We have a beautiful playing <br>ground, we are lucky</p>
-                </div>
+            <input type="text" placeholder="write your message" class="input input-bordered input-lg w-full h-96 " />
+          </div>
+          <button class="bg-red-500 px-3 lg:px-56 py-3 mt-10 text-white font-semibold rounded-lg text-xl">Send Message</button>
+        </div>
+      </div>
 
-            </div>
-        </section>
+    </section>
+    <div class="mt-24 mx-4 lg:mx-32 text-center mb-16">
+      <h2 class="text-3xl font-bold">Social Media</h2>
+      <div class=" mt-7">
+        <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+      <a href="https://www.instragram.com"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+      </div>
+      
+    </div>
+  </main>
 
-    </main>
-    <footer>
 
-    </footer>
+
+  
+
 </body>
-
 </html>
